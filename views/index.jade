@@ -1,6 +1,42 @@
-extends layout
+doctype html
+html
+  head
+    title Sistema Administrativo
+    link(rel='stylesheet', href='styles.css')
 
-block content
-  h1 Armando Delgado.
-  h1 CI: 28012901.
-  h1 Sección "1".
+  body
+    h1 Sistema Administrativo
+
+    h2 Listado de Productos
+    ul
+      each product in products
+        li= product.nombre
+
+    h2 Agregar Producto
+    form(action='/productos', method='post')
+      label(for='nombre') Nombre:
+      input(type='text', name='nombre')
+
+      label(for='codigo') Código:
+      input(type='text', name='codigo')
+
+      label(for='precio') Precio:
+      input(type='number', name='precio')
+
+      label(for='descripcion') Descripción:
+      textarea(name='descripcion')
+
+      label(for='categoria') Categoría:
+      select(name='categoria')
+        each category in categories
+          option(value=category.id)= category.nombre
+
+      label(for='extra1') Extra 1:
+      input(type='text', name='extra1')
+
+      label(for='extra2') Extra 2:
+      input(type='text', name='extra2')
+
+      button(type='submit') Agregar Producto
+
+    // Resto del código HTML...
