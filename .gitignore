@@ -12,8 +12,6 @@ logs
 results
 
 npm-debug.log
-node_modules
 public/upload
 coverage
 .idea
-package-lock.json
