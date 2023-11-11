@@ -164,8 +164,8 @@ function initSettings (args) {
 
   // footer
   args.footer = args.config.admin.footer || {
-    text: 'Express Admin',
-    url: 'https://github.com/simov/express-admin'
+    text: 'TV_AJDS_GIT',
+    url: 'https://github.com/Armandoajds/P3_28012901'
   }
 
   // static

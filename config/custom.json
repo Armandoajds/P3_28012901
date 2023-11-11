@@ -20,12 +20,12 @@
     },
     "public": {
       "local": {
-        "path": "../../custom/app2/public",
+        "path": "custom/app2/public",
         "css": [
-          "/css/global.css"
+          "css/global.css"
         ],
         "js": [
-          "/js/global.js"
+          "js/global.js"
         ]
       }
     }
@@ -41,7 +41,7 @@
     },
     "public": {
       "local": {
-        "path": "../../custom/app3/public"
+        "path": "custom/app3/public"
       }
     }
   },
@@ -78,9 +78,9 @@
         ]
       },
       "local": {
-        "path": "../../custom/editors",
+        "path": "custom/editors",
         "js": [
-          "/editors.js"
+          "editors.js"
         ]
       }
     }
@@ -88,12 +88,12 @@
   "Custom Static Files": {
     "public": {
       "local": {
-        "path": "../../custom/static",
+        "path": "custom/static",
         "js": [
-          "/mtm-tags.js",
-          "/theme.js",
-          "/images.js",
-          "/binary.js"
+          "mtm-tags.js",
+          "theme.js",
+          "images.js",
+          "binary.js"
         ]
       }
     }
