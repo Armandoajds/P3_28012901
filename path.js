@@ -3,8 +3,8 @@ var fs = require('fs')
 var path = require('path')
 
 ;[
-  'config/sqlite/config.json',
-  'config/custom.json',
+  './config/sqlite/config.json',
+  './config/custom.json',
 ].forEach((file) => {
   var fpath = path.resolve(__dirname, file)
   fs.writeFileSync(

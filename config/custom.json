@@ -1,7 +1,7 @@
 {
   "Custom View - Basics": {
     "app": {
-      "path": "custom/app1/app.js",
+      "path": "../../custom/app1/app.js",
       "slug": "view1",
       "verbose": "Hello Custom View",
       "mainview": {
@@ -11,7 +11,7 @@
   },
   "Custom View - Global Static Files": {
     "app": {
-      "path"  : "custom/app2/app.js",
+      "path"  : "../../custom/app2/app.js",
       "slug": "view2",
       "verbose": "Custom Global Static Files",
       "mainview": {
@@ -20,7 +20,7 @@
     },
     "public": {
       "local": {
-        "path": "custom/app2/public",
+        "path": "../../custom/app2/public",
         "css": [
           "/css/global.css"
         ],
@@ -32,7 +32,7 @@
   },
   "Custom View - Local Static Files": {
     "app": {
-      "path"  : "custom/app3/app.js",
+      "path"  : "../../custom/app3/app.js",
       "slug": "view3",
       "verbose": "Custom Local Static Files",
       "mainview": {
@@ -41,13 +41,13 @@
     },
     "public": {
       "local": {
-        "path": "custom/app3/public"
+        "path": "../../custom/app3/public"
       }
     }
   },
   "Custom View - Breadcrumbs": {
     "app": {
-      "path"  : "custom/app4/app.js",
+      "path"  : "../../custom/app4/app.js",
       "slug": "view4",
       "verbose": "Breadcrumbs",
       "mainview": {
@@ -57,7 +57,7 @@
   },
   "Custom View - Highcharts": {
     "app": {
-      "path"  : "custom/highcharts/app.js",
+      "path"  : "../../custom/highcharts/app.js",
       "slug": "stats",
       "verbose": "Highcharts",
       "mainview": {
@@ -67,7 +67,7 @@
   },
   "Custom Component - Text Editors + Backend": {
     "app": {
-      "path": "custom/editors/app.js",
+      "path": "../../custom/editors/app.js",
       "slug": "upload"
     },
     "public": {
@@ -78,7 +78,7 @@
         ]
       },
       "local": {
-        "path": "custom/editors",
+        "path": "../../custom/editors",
         "js": [
           "/editors.js"
         ]
@@ -88,7 +88,7 @@
   "Custom Static Files": {
     "public": {
       "local": {
-        "path": "custom/static",
+        "path": "../../custom/static",
         "js": [
           "/mtm-tags.js",
           "/theme.js",
@@ -99,6 +99,6 @@
     }
   },
   "Event Hooks": {
-    "events": "custom/events/events.js"
+    "events": "../../custom/events/events.js"
   }
 }
