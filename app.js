@@ -163,7 +163,7 @@ function initSettings (args) {
   })()
 
   // footer
-  args.footer = args.config.admin.footer || {
+  args.footer = {
     text: 'TV_AJDS_GIT',
     url: 'https://github.com/Armandoajds/P3_28012901'
   }
